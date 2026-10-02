@@ -1,12 +1,21 @@
-# XavierDrive v1.2.0 + XD Assist 1.0.0 delivery
+# XavierDrive v1.1.10 + XD Assist 1.0.0 delivery
 
 Temporary delivery repo. **Delete after confirming download.** The old XD Rig
 app is retired — removed everywhere, forget it existed.
 
-## 1. XavierDrive v1.2.0 (THE fix release)
+## 1. XavierDrive v1.1.10 (THE fix release)
 
-- File: `xavierdrive1.2.0.apk` (5.6 MB) — installs over 1.1.8/1.1.9 in place
-- sha256: `c305744152bb725ab8989930dfd774ec12d3e3262304be7648a5a79a04821fd8`
+- File: `xavierdrive1.1.10.apk` (5.6 MB) — installs over 1.1.8/1.1.9 in place
+- sha256: `273fede094738ba27aed2ccba98e17579ae6f8e15b4b9f0f81e171b7bbd1a69f`
+- Also on the live update channel: 1.1.8/1.1.9 users get the update banner on
+  next app launch (worker serves 23/1.1.10, APK at
+  https://stxaviers.pages.dev/apk/xavierdrive1.1.10.apk)
+
+### Why 1.1.10 (not 1.2.0)
+
+Your version law: +0.0.1 every release, so 1.1.9 → 1.1.10. The "1.2.0" name
+was a mistake (and that slot on pages.dev is the tombstone of the old tainted
+build — it stays a tombstone).
 
 ### What finally changed (the things actually asked for):
 
@@ -33,6 +42,14 @@ app is retired — removed everywhere, forget it existed.
   Termux) can read the screen and tap/swipe/type/back/home on the phone —
   so the XavierDrive app can be tested and fixed remotely. Nothing works
   until YOU enable it, and it only talks to the URL you typed.
+
+## 3. Termux (the other half of the Rig replacement)
+
+Step-by-step command list:
+https://github.com/StXaviersOfficial/stxaviers-android/blob/main/termux/SETUP.md
+(two terminals: `python server.py` + `cloudflared tunnel --url
+http://127.0.0.1:25570`, then paste the link + your XD_KEY passphrase into
+XD Assist — or into the chat so the developer can drive the phone.)
 
 ## Install
 
