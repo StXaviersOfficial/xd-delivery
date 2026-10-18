@@ -1,21 +1,22 @@
-# XavierDrive v1.1.10 + XD Assist 1.0.0 delivery
+# XavierDrive v1.2.0 + XD Assist 1.0.0 delivery
 
 Temporary delivery repo. **Delete after confirming download.** The old XD Rig
 app is retired — removed everywhere, forget it existed.
 
-## 1. XavierDrive v1.1.10 (THE fix release)
+## 1. XavierDrive v1.2.0 (THE fix release)
 
-- File: `xavierdrive1.1.10.apk` (5.6 MB) — installs over 1.1.8/1.1.9 in place
-- sha256: `273fede094738ba27aed2ccba98e17579ae6f8e15b4b9f0f81e171b7bbd1a69f`
+- File: `xavierdrive1.2.0.apk` (5.6 MB) — installs over 1.1.8/1.1.9 in place
+  (also over the briefly-mislabeled "1.1.10" build — same thing, code 23)
+- sha256: `280a0c628ae4552cf4f456e125a19073925030fa8b4f0a771d6ac2c7e4beface`
 - Also on the live update channel: 1.1.8/1.1.9 users get the update banner on
-  next app launch (worker serves 23/1.1.10, APK at
-  https://stxaviers.pages.dev/apk/xavierdrive1.1.10.apk)
+  next app launch (worker serves 23/1.2.0, APK at
+  https://stxaviers.pages.dev/apk/xavierdrive1.2.0.apk)
 
-### Why 1.1.10 (not 1.2.0)
+### Version note
 
-Your version law: +0.0.1 every release, so 1.1.9 → 1.1.10. The "1.2.0" name
-was a mistake (and that slot on pages.dev is the tombstone of the old tainted
-build — it stays a tombstone).
+Owner law: +0.0.1 every release, so 1.1.9 → **1.2.0**. The "1.1.10" label was
+the mistake — fixed everywhere (repo, channel, Pages). Next release = 1.2.1.
+The old pages.dev 1.2.0 tombstone slot now carries this clean signed build.
 
 ### What finally changed (the things actually asked for):
 
