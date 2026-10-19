@@ -2,6 +2,11 @@
 
 Temporary public delivery repo (law 10 — delete after owner confirms download).
 
+## XavierDrive v1.2.2 (code 25) — 2026-10-19
+- **Download**: `xavierdrive1.2.2.apk` (5,600,916 B, release-signed, sha256 `4fb08c43…da7ac`)
+- **What's new**: dashboard "Latest notice" now aggregates every class folder (it used to say "No notices yet" whenever any class had notices), and **updates are integrity-checked** — the APK's SHA-256 is verified before anything is offered for install. Plus the S25 full-sweep hardening behind the scenes (honest bridge errors, cookie-crash fix, tighter role matching).
+- Also on the update channel: the app itself offers this update (sha256-pinned) — Settings → Check for updates.
+
 ## XavierDrive v1.2.1 (code 24) — 2026-10-18
 - **Download**: `xavierdrive1.2.1.apk` (5,600,916 B, release-signed, sha256 `17a6a94d…`)
 - **What's new**: the empty bug-report hub is FIXED. Root cause: the content frame was declared with the wrong view type since v1.1.8 — the hub silently rendered nothing every single time. Now it opens with all its cards, every render step is logged to latestlog.txt, and the error fallback can never fail silently again.
